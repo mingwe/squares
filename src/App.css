@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.bordered-1 {
+  border: 1px solid #000;
+}
+.bg-blue {
+  background: #9fcbff;
+}
+.bg-white {
+  background: #FFFFFF;
+}
+.square-single {
+  /*width: 70px;*/
+  /*height: 70px;*/
+  /*display: inline-block;*/
+  padding-bottom: calc(100% - 2px);
+}
