@@ -24,8 +24,6 @@ export default function Square ({ row, col }) {
             // componentDidMount logic')
             mounted.current = true
         else
-            console.log('effect didupdate')
-            console.log(state.isHovered)
             // componentDidUpdate logic
             if (state.isHovered === true) {
                 add(squareID, {row, col})

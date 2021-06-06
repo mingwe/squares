@@ -13,17 +13,12 @@ const REMOVE_ALL = 'removeAll'
 const reducer = (state, action) => {
     switch (action.type) {
         case ADD_ALERT:
-            console.log('add action')
-            console.log(action)
-            console.log(action.squares)
             let squareslist = {...state.squares};
             squareslist.[action.id] = action.squares
             return {
                 ...state, squares: squareslist
             }
         case REMOVE_ALERT:
-            console.log('remove action')
-            console.log(action)
             let updatelist = {...state.squares};
             delete updatelist.[action.id]
             return {

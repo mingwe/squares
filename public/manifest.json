@@ -1,0 +1,8 @@
+{
+  "short_name": "Squares",
+  "name": "Squares react app by mng",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
